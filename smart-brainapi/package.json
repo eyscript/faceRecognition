@@ -1,16 +1,11 @@
 
 {
-  "name": "smart-brainapi",
+  "name": "node",
   "version": "1.0.0",
   "description": "",
-   "main": "index.js",
-
-  "engines": {
-    "node": "12.14.1"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "build":"webpack"
+   "main": "script.js",
+   "scripts": {
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +22,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  },
+  }
  
 }
