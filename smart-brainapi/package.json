@@ -1,10 +1,8 @@
-
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
-   "main": "script.js",
-   "scripts": {
+  "main": "script.js",
+  "scripts": {
     "start": "nodemon server.js"
   },
   "keywords": [],
@@ -22,6 +20,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
- 
+  },
+  "description": ""
 }
